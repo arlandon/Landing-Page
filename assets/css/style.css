@@ -6,47 +6,52 @@ box-sizing: border-box;
 }
 
 
-
-
-
 #mainNav{
 
-height: 60px;
-width: 100%;
-text-align: left;
-
-
-/*border: 1px solid white;*/
+	height: 13%;
+	width: 100%;
+	/*border: 1px solid white;*/
+	position: relative;
 
 }
+
 
 .nav {
-
-	float: right;	
-	margin-top: 20px;
-	margin-right: 10px;
+	height: 100%;
+	position: absolute;
+	right: 0px;
 	font-size: 2.5em;
-
+	margin-right: 15px;
+	/*border: 1px solid white;*/
 
 }
 
-.nav > a{
+.nav > a{ /* navigation Home ...*/
 	text-decoration: none;
 	color: #DCDCDC;
 	font-size: 0.5em;
-	margin-right: 4px;
-
-
+	
 
 }
 
 
-#mainNav > a {
+
+.title	{
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	/*border: 1px solid white;*/
+	margin-left: 30px;
+}
+
+.title > a { /*title of webpage "Friendly"*/
 	font-family: 'Galada', cursive;
 	text-decoration: none;
-	font-size: 3em;
-	padding-left: 10px;
+	font-size: 3.5em;
+	
 	color: #DCDCDC;
+	
+	
 
 }
 
@@ -61,62 +66,312 @@ text-align: left;
 	
 }
 
-#background{
+#background{ /*for main background #masterhead*/
 
 	height: 100vh;
 	width: 100%;
-	background-color: rgba(255,255,255,.2);
+	background-color: rgba(255,255,255,.2); /*opacity*/
 	position: absolute;
 	
 }
 
+
+.header{
+
+	height: 25%;
+	/*border: 2px solid black;*/
+}
+
 h1{	
-	padding-top: 40px;
-	padding-bottom: 70px;
-	font-size: 6.5em;
-	color: white;
-	font-family: 'Roboto Condensed', sans-serif;
-
-
-
-}
-
-.auto > p {
-
-
-	font-size: 1.5em;
-	color: white;
-	padding-top: 180px;
-	padding-left: 100px;
-	padding-right: 100px;
-}
-
-
-hr{
-
-	max-width: 	50px;
-}
-
-h2{
-	margin-top: -10px;
-	font-size: 1.5em;
+	
+	font-size: 6em;
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
 	
+
 }
 
-button{
+.headerp > p {
 
-	height: 60px;
+
+	font-size: 1.5em;
+	color: #3C3C3B;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+
+}
+
+
+.headerp{
+	height: 40%;
+	/*	*/
+
+}
+
+
+.btn {
+	position: relative;
+	height: 5%;
+	width: 100%;
+	color: white;
+	/*border: 1px solid white;*/
+	
+	
+}
+
+.btn > button {
+	position: absolute;
+	top: 50%;  
+    left: 50%; 
+
+    transform: translate(-50%, -50%);
+	height: 70px;
 	width: 200px;
 	border-radius: 30px;
-	position: relative;
-	top: 50px;
 	color: white;
+	font-size: 1.5em;
 	background-color: #f05f40;
+
 }
 
-#btngallery{
+
+
+
+
+/* END OF MAIN HEADER CSS -----------------------------------------------------------*/
+
+
+#about {
+
+	height: 450px;
+	width: 100%;
+	background-color: #f05f40;
+	text-align: center;
+
+}
+
+.aboutheader{
+	
+	font-size: 3em;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*border: 2px solid white;*/
+	height: 50%;
+	padding-top: 60px;
+	padding-bottom: 50px;
+
+	
+}
+
+.aboutp{
+
+	/*border: 2px solid white;*/
+	height: 30%;
+
+
+}
+
+.aboutp > p{
+
+	font-size: 1.4em;
+	color: #3C3C3B;
+	
+
+}
+
+.btnabout{
+
+	
+	position: relative;
+	height: 20%;
+	width: 100%;
+	color: white;
+	background-color: #f05f40;
+	/*border: 1px solid white;*/
+
+
+
+
+
+}
+
+
+
+.btnabout > button {
+
+	position: absolute;
+	top: 50%;  
+    left: 50%; 
+
+    transform: translate(-50%, -50%);
+	height: 70px;
+	width: 200px;
+	border-radius: 30px;
+	color: black;
+	font-size: 1.5em;
+	background-color: white;
+
+	
+
+}
+
+
+
+
+
+/*end of CSS ABOUT Header*/
+
+
+
+
+
+#services {
+
+	height: 450px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	
+
+}
+
+.servicesheader {
+	height: 25%;
+	width: 100%;
+	border: 1px solid black;
+
+	font-size: 3em;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	/*border: 2px solid white;*/
+	height: 50%;
+	padding-top: 60px;
+	padding-bottom: 50px;
+
+}
+
+
+.servicescon{
+
+	height: 75%;
+	width: 100%;
+	border: 1px solid red;
+	background-color: white;
+}
+
+
+
+
+
+.containerS {
+
+	height: 100%;
+	width : 23%;
+	margin: 0px 1%;
+	border: 1px solid black;
+	float: left;
+}
+
+.fontawesome{
+
+	height: 45%;
+	width: 100%;
+	background-color: white;
+	display: block;
+}
+
+.fontawesome{
+
+	font-size: 8em;
+	color: #f05f40;
+}
+
+.titlefontawesome {
+
+	height: 15%;
+	width: 100%;
+	/*background-color: pink;*/
+
+}
+
+.description{
+ 	
+	height: 40%;
+	width: 100%;
+	/*background-color: blue;*/
+
+
+}
+
+
+/*end of css about!!!!!!!!!!!!!!!!!*/
+
+
+#gallery{
+	height: 500px;
+	width: 100%;
+	text-align: center;
+	background-color: #212529;
+
+}
+
+.gallerycon {
+	height: 60%;
+	width: 100%;
+	/*border: 5px solid white;*/
+
+	
+}
+
+.container {
+
+	height: 50%;
+	width : 33.3%;
+	margin: 0px 0%;
+	border: 1px solid black;
+	float: left;
+}
+
+.galheader{
+	height: 20%;
+	width: 100%;
+	border: 1px solid red;
+
+}
+
+.btngallery {
+
+	height: 20%;
+	width: 100%;
+/*	border: 1px solid blue;*/
+
+}
+
+
+.btngallery> button{
+	height: 100%;
+	width: 200px;
+	border-radius: 30px;
+	color: white;
+	background-color: #f05f40;
+
+}
+
+
+
+
+/*i{	
+
+font-size: 10em;
+color: #f05f40;
+margin-top: 25px;
+}
+*/
+
+
+
+/*#btngallery{
 	height: 60px;
 	width: 200px;
 	border-radius: 30px;
@@ -126,65 +381,13 @@ button{
 	background-color: white;
 	font-size: 1em;
 
-}
-section{
-
-	padding: 10em;
-	text-align: center;
-
-
-
-}
-
-section > p{
-
-	font-size: 10px;
-	color: #DCDCDC;
-}
-
-
-.clear:after{
-	content: " ";
-	clear: both;
-	display: block;	
-}
-
-.servicesCon > .containerS {
-
-	height: 300px;
-	width : 23%;
-	margin: 10px 1%;
-	/*border: 1px solid black;*/
-	float: left;
-}
-
-
-i{	
-
-font-size: 10em;
-color: #f05f40;
-margin-top: 25px;
-}
+}*/
 
 
 
 
-.galleryCon {
-	margin: 0;
 
-	
-}
-
-.galleryCon > .container {
-
-	height: 270px;
-	width : 33.3%;
-	margin: 0px 0%;
-	/*border: 1px solid black;*/
-	float: left;
-}
-
-.img1{
+/*.img1{
 
 
 	background-image: url(https://images.pexels.com/photos/1113188/pexels-photo-1113188.jpeg?auto=compress&cs=tinysrgb&h=350);
@@ -226,97 +429,74 @@ margin-top: 25px;
 	background-image: url(https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-size: cover;
 }
+*/
 
 
-#services > h2 {
 
-	color: black;
-}
-
-
-#about {
-
-	
-	background-color: #f05f40;
-}
-
-#about> h2 {
-	font-size: 3.5em;
-}
-
-#about> p {
-
-	font-size: 1em;
-}
-
-
-#services {
-
-	
+#footer{
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	border: 1px solid red;
 	background-color: white;
 
-}
-#gallery >p{
-
-	font-size: 1em;
-
-
-}
-#gallery {
-
-	padding: 0;
-	padding-bottom: 100px;
-	background-color: #212529;
-}
-
-#gallery > h3 {
-margin-top: 2.5em;
-	font-size: 2.5em;
-	color: white;
-}
-#footer > h3{
-
-	font-size: 2.5em;
-
-
-}
-
-#footer > p{
-
-	font-size: 1.3em;
-	color: black;
 
 }
 
 
-.containerFooter > .contacts {
 
-	height: 270px;
+.footerheader{
+
+	height: 20%;
+	width: 100%;
+	/*border: 1px solid blue;*/
+}
+
+.footerp{
+	height: 15%;
+	width: 100%;
+	/*border: 1px solid blue;*/
+
+
+}
+
+.containerFooter{
+	height: 65%;
+	width: 100%;
+	border: 1px solid blue;
+
+}
+
+
+.contacts {
+
+	height: 100%;
 	width : 40%;
-	margin: 10px 5%;
-	/*border: 1px solid black;*/
+	margin: 0px 5%;
+	border: 1px solid black;
 	float: left;
 }
 
-.contacts> i{
+.fontawesomefot{
+
+	height: 60%;
+	width: 100%;
+	border: 1px	solid black	;
+}
 
 
-	font-size: 5.5em;
-	color: #212529;
-	margin-top: 25px;
+.footpcont{
+
+	height: 40%;
+	width: 100%;
+	border: 1px	solid black	;
 
 }
 
-.contacts > p{
 
-	font-size: 	1.5em;
-	margin-top: 1em;
-	color: #212529;
 
-}
-
-#footer {
-
-	padding-top: 50px;
-	padding-bottom: 0;
+.clear:after{
+	content: " ";
+	clear: both;
+	display: block;	
 }
